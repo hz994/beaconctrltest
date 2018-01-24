@@ -34,7 +34,7 @@
         return [NSString stringWithFormat:@"%@/s2s_api/v1",baseURLAPI];
     }
     
-    return @"http://login.qarib.com/saas_companies/exceed/s2s_api/v1/admins";
+    return @"http://login.qarib.com/s2s_api/v1/admins";
 }
 
 - (NSDictionary *)authenticationParameters
